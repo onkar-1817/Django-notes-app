@@ -1,6 +1,6 @@
 version : "3.3"
 services :
   web :
-     image : trainwithshubham/my-note-app:latest
+     image : onkar1817/notes-app-k8
      ports :
          - "8000:8000"
