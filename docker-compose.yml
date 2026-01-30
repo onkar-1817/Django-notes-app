@@ -1,6 +1,6 @@
 version : "3.3"
 services :
   web :
-     image : onkar1817/notes-app-k8
+     image : onkar1817/note-app-test-new:latest
      ports :
          - "8000:8000"

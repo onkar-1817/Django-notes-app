@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Build and Test"){
             steps{
-                sh "docker build . -t note-app-test-new"
+                sh "docker build -t note-app-test-new ."
             }
         }
         stage("Push to Docker Hub"){
